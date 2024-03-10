@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+}
+
+#contents {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+#contain {
+    border-radius: 10px;
+    padding: 30px;
+    width: 70vw;
+    border: 1px solid gray;
+}
+
+#in {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#btn {
+    width: fit-content;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+#err {
+    color: red;
+}
+
+#btn2 {
+    width: fit-content;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(180, 180, 180);
+}
+
+#navcont {
+    width: 100vw;
+}
+
+.navcontents {
+    margin-right: 2vw;
+}
+
+#classescontainer {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+#peoplediv {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
